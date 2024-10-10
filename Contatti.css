@@ -1,0 +1,91 @@
+body {
+    background-color: whitesmoke;
+    margin: 10px auto 0px;
+    text-align: left;
+    max-width: 800px;
+    margin-top: 30px;
+    max-width: 800px;
+    
+}
+
+#Pagina {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Montserrot', sans-serif;
+     max-width: 800px; 
+     margin: 100px auto 0px;
+}
+h1 {
+    background-image: linear-gradient(purple, blue, green, yellow, orange, red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#navbar {
+    background-color: purple;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    padding: 2px 2px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 3px 3px 2px black;
+}
+
+.margin{
+    margin-top: 100px;
+}
+
+h4 {
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+a:visited {
+    color: rgb(241, 0, 0);
+}
+a:active {
+    color: green;
+}
+a:focus {
+    color: brown;
+}
+video{
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* ADATTAMENTI PER SCHERMI SMARTPHONE*/
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: none;
+    }
+    #Pagina {
+        text-align: left;
+        font-size: 14px;
+        font-family: 'Montserrot', sans-serif;
+         max-width: 800px !important; 
+         margin-top: 0px;
+    
+    }
+    img{
+        width: 100% !important;
+        float: none;
+        margin: 20px 0px;
+    }
+
+    @media scren and (max-width: 850px) {
+        .margin{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+}
